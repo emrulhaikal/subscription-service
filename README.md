@@ -3,6 +3,10 @@
  
  This is a Spring Boot Application
  
+ endpoint = http://localhost:8080/subscription/create
+ 
+ POST request
+ 
  sample payload for weekly subscription:
  {
   "amount": "1000",

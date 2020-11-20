@@ -1,6 +1,8 @@
 # subscription-service
  subscription service demo
  
+ This is a Spring Boot Application
+ 
  sample payload for weekly subscription:
  {
   "amount": "1000",

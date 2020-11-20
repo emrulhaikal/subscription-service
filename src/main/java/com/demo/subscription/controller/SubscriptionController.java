@@ -34,7 +34,7 @@ public class SubscriptionController {
 
         }
         else if(dto.getType() == SubscriptionTypeEnum.MONTHLY){
-            //we should do checking if dayOfWeekMonth is valid or not before passing but I leave it for now
+            //we should do checking if dayOfWeekMonth is valid or not before passing such as rejected invalid date i.e day 32 but I leave it for now
             dateRange = new DateUtil().getMonthlySubscription(dto.getStartDate(), dto.getEndDate(),
                 Integer.parseInt(dto.getDayOfWeekMonth()));
         }
